@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+button {
+  padding: 0.2rem;
+  margin-right: 2rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
